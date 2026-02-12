@@ -40,6 +40,9 @@
         }
         .logo img {
             height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 8px;
         }
         .logo-text {
             font-size: 1.8rem;
@@ -66,7 +69,10 @@
         }
         .hero-logo {
             width: 120px;
+            height: 120px;
             margin: 0 auto 1.5rem;
+            object-fit: cover;
+            border-radius: 20px;
         }
         .hero h1 {
             font-size: 3rem;
@@ -139,6 +145,7 @@
         }
         .product-img img {
             width: 100%;
+            height: auto;
             display: block;
         }
         .product-text {
@@ -190,14 +197,15 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    < img src="https://i.imgur.com/8ZJqQ2y.jpg" alt="PawPal Logo">
+                    <!-- 品牌 Logo：蓝色占位图，实际部署时替换为本地图片 -->
+                    <img src="https://placehold.co/40x40/2563eb/white?text=P" alt="PawPal Logo">
                     <span class="logo-text">PawPal</span>
                 </div>
                 <nav class="nav-links">
-                    <a href=" ">Home</a >
-                    <a href="#features">Features</a >
-                    <a href="#product">Product</a >
-                    <a href="#support">Support</a >
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#product">Product</a>
+                    <a href="#support">Support</a>
                 </nav>
             </div>
         </div>
@@ -205,10 +213,11 @@
 
     <section class="hero" id="home">
         <div class="container">
-            < img src="https://i.imgur.com/8ZJqQ2y.jpg" alt="PawPal Logo" class="hero-logo">
+            <!-- Hero 区域大 Logo，与品牌色统一 -->
+            <img src="https://placehold.co/120x120/2563eb/white?text=Paw" alt="PawPal Logo" class="hero-logo">
             <h1>PawPal • Smart Feeding, Happy Paw</h1>
-            <p>PawPal, an automatic feeding machine for your little friends.</p >
-            <a href="#product" class="btn">Explore Now</a >
+            <p>PawPal, an automatic feeding machine for your little friends.</p>
+            <a href="#product" class="btn">Explore Now</a>
         </div>
     </section>
 
@@ -218,27 +227,27 @@
             <div class="feature-grid">
                 <div class="feature-card">
                     <h3>Smart Scheduling</h3>
-                    <p>Set customized meal times and portions via app, for balanced daily feeding.</p >
+                    <p>Set customized meal times and portions via app, for balanced daily feeding.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Reliable Dispensing</h3>
-                    <p>Anti-jam design ensures smooth, accurate food delivery every time.</p >
+                    <p>Anti-jam design ensures smooth, accurate food delivery every time.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Freshness First</h3>
-                    <p>Sealed hopper keeps kibble dry, crisp, and tasty for longer.</p >
+                    <p>Sealed hopper keeps kibble dry, crisp, and tasty for longer.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Real-Time Alerts</h3>
-                    <p>Get notified for low food, low battery, and feeding status updates.</p >
+                    <p>Get notified for low food, low battery, and feeding status updates.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Voice Message</h3>
-                    <p>Call your pet for meals with your own recorded voice for a familiar touch.</p >
+                    <p>Call your pet for meals with your own recorded voice for a familiar touch.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Battery Backup</h3>
-                    <p>Keep feeding running during power outages, so meals are never missed.</p >
+                    <p>Keep feeding running during power outages, so meals are never missed.</p>
                 </div>
             </div>
         </div>
@@ -248,7 +257,8 @@
         <div class="container">
             <div class="product-content">
                 <div class="product-img">
-                    < img src="https://i.imgur.com/8ZJqQ2y.jpg" alt="PawPal Smart Pet Feeder">
+                    <!-- 产品展示图：使用合适的智能喂食器风格占位图 -->
+                    <img src="https://placehold.co/600x400/f0f9ff/1e293b?text=PawPal+Smart+Feeder" alt="PawPal Smart Pet Feeder">
                 </div>
                 <div class="product-text">
                     <h2>Meet PawPal: Your Pet’s Perfect Mealtime Pal</h2>
@@ -259,7 +269,7 @@
                         <li>Dual power supply ensures uninterrupted feeding</li>
                         <li>Food-grade materials meet the highest safety standards</li>
                     </ul>
-                    <a href="#" class="btn">Buy Now</a >
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -268,12 +278,12 @@
     <footer id="support">
         <div class="container">
             <div class="footer-links">
-                <a href="#">Support</a >
-                <a href="#">Privacy Policy</a >
-                <a href="#">Terms of Service</a >
-                <a href="#">Contact Us</a >
+                <a href="#">Support</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
             </div>
-            <p>&copy; 2026 PawPal. All rights reserved.</p >
+            <p>&copy; 2026 PawPal. All rights reserved.</p>
         </div>
     </footer>
 </body>
